@@ -8,11 +8,15 @@ body{
 }
 
 header{
-    max-height: 200%;
     background-color: black;
+    border: 0;
     color: #fff;
+    max-height:40%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-a{
+.modal_open{
     text-decoration: none;
 }
