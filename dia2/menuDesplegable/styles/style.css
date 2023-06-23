@@ -27,7 +27,7 @@ a{
     color: #fff;
 }
 main{
-    margin: 10% 2%;
+    margin: 10% 2% 0% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,11 +67,13 @@ header a {
     text-decoration: none;
     padding: 10px 20px;
     font-size: larger;
-    color: #f2f2f2;
+    color: #efefef;
     height: 30px;
     line-height: 30px;
+    
 }
 
 header a:hover {
-    background-color: gray;
+    background-color: #757575;
+    opacity: 100%;
 }
