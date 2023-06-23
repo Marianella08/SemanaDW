@@ -22,9 +22,10 @@ header{
     gap: 27px;
 }
 
-.Dlogo{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
+b{
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
 }
