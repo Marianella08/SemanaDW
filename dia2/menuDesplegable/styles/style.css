@@ -27,7 +27,7 @@ a{
     color: #fff;
 }
 main{
-    margin: 10% 2% 0% 2%;
+    margin: 10% 0% 0% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,3 +77,4 @@ header a:hover {
     background-color: #757575;
     opacity: 100%;
 }
+
