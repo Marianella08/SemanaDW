@@ -14,6 +14,13 @@ header{
     align-items: center;
 }
 
+.Dlogo{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
 .navegador{
     width: 30vw;
     display: flex;
