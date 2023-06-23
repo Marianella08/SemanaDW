@@ -109,23 +109,3 @@ main{
     align-items: center;
 }
 
-span{
-    color: #5f9ea0;
-}
-
-input{
-    border: 1px solid #252525;
-    width: 98%;
-}
-
-.descripcion{
-    height: 30vh;
-}
-
-.B_enviar{
-    width: 98%;
-    background-color: #5f9ea0;
-    border-radius: 5px;
-    border: 2px solid #4b8385;
-    color: #fff
-}
