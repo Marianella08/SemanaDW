@@ -24,7 +24,9 @@ header{
 .navegador{
     width: 30vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 57px;
+    gap: 27px;
 }
 
 main{

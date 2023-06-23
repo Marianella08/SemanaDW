@@ -15,6 +15,11 @@ img{
 }
 
 .imagen{
+    width: 95%;
+    height: 70%;
+}
+
+.imagenm{
     width: 90%;
     height: 50%;
 }
