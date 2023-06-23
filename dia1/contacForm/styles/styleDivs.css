@@ -29,34 +29,6 @@ main{
     align-items: center;
 }
 
-.texto{
-    margin: 5%;
-    max-width: 40%;
-}
-
-img{
-    max-width: 90%;
-    max-height: 50%;
-    
-}
-
-.logo{
-    width: 90px;
-    height: 90px;
-}
-
-.imagen{
-    width: 90%;
-    height: 50%;
-}
-
-h2{
-    font-size:xx-large;
-}
-
-a{
-    text-decoration: none;
-}
 
 .modal_open{
     background-color: #5f9ea0;
