@@ -1,57 +1,61 @@
-.texto{
+.texto {
     margin: 5%;
     max-width: 40%;
 }
 
-img{
+img {
     max-width: 90%;
     max-height: 50%;
-    
+
 }
 
-.logo{
+.logo {
     width: 90px;
     height: 90px;
 }
 
-.imagen{
+.imagen {
     width: 95%;
     height: 70%;
 }
 
-.imagenm{
+.imagenm {
     width: 90%;
     height: 50%;
 }
 
-h2{
-    font-size:xx-large;
+h2 {
+    font-size: xx-large;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-span{
+span {
     color: #5f9ea0;
 }
 
-input{
+input {
     border: 0px;
     width: 98%;
 }
 
-.asunto{
+input:focus {
+    outline: none;
+}
+
+.asunto {
     background-color: #fbfbfb;
 }
 
-.descripcion{
+.descripcion {
     height: 30vh;
     background-color: #f7f7f7;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-.B_enviar{
+.B_enviar {
     width: 100%;
     background-color: #5f9ea0;
     border-radius: 5px;

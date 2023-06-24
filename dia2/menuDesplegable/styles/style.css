@@ -33,6 +33,10 @@ main{
     justify-content: space-between;
 }
 
+.item{
+    color: #252525;
+}
+
 span{
     font-size:x-large;
 }

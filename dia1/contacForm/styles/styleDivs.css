@@ -1,27 +1,27 @@
-*{
+* {
     background-color: #fff;
     color: #4f4f4f;
-    font-size:medium;
+    font-size: medium;
     font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
-header{
+header {
     margin: 0% 1%;
-    max-height:40%;
+    max-height: 40%;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Dlogo{
+.Dlogo {
     width: 90px;
     height: 90px;
     display: flex;
     align-items: center;
 }
 
-.navegador{
+.navegador {
     width: 30vw;
     display: flex;
     justify-content: flex-end;
@@ -29,7 +29,7 @@ header{
     gap: 27px;
 }
 
-main{
+main {
     margin: 5% 10%;
     max-width: 80%;
     max-height: 50%;
@@ -39,14 +39,14 @@ main{
 }
 
 
-.modal_open{
+.modal_open {
     background-color: #5f9ea0;
     border-radius: 5px;
     border: 2px solid #4b8385;
     color: #fff
 }
 
-.modal{
+.modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -58,18 +58,18 @@ main{
     pointer-events: none;
     transition: opacity .6s;
     --transform: translateY(-100vh);
-    --transition: transform .6s .9s; 
+    --transition: transform .6s .9s;
 }
 
-.modal--show{
+.modal--show {
     opacity: 1;
     pointer-events: unset;
     transition: opacity .6s;
-    --transform:translateY(0);
+    --transform: translateY(0);
     --transition: transform .8s .8s;
 }
 
-.modal_container{
+.modal_container {
     margin: auto;
     width: 100%;
     max-width: 70%;
@@ -83,29 +83,28 @@ main{
     grid-auto-columns: 100%;
 }
 
-.modal_contenido{
+.modal_contenido {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.Redactar{
+.Redactar {
     width: 60%;
     height: 100%;
 }
 
-.imagen_modal{
+.imagen_modal {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
 }
 
-.top{
+.top {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
