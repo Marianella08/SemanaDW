@@ -1,53 +1,55 @@
-*{
+* {
     margin: 0;
     font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
-body{
+body {
     background-image: url(/dia2/menuDesplegable/img/bg.png);
     background-size: cover;
 }
 
-header{
+header {
     border: 0;
-    max-height:40%;
+    max-height: 40%;
     max-width: 100%;
     display: flex;
     align-items: center;
 }
- header:hover{
-    background-color: #000000;
-    transition: 0.5s;
- }
 
-header:hover a{ 
+header:hover {
+    background-color: #252525;
+    transition: 0.5s;
+}
+
+header:hover a {
     color: #fff;
 
-    
+
 }
 
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
-main{
+
+main {
     margin: 10% 0% 0% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.item{
+.item {
     color: #252525;
 }
 
-span{
-    font-size:x-large;
+span {
+    font-size: x-large;
 }
 
-b{
-    color:#ffbd59;
+b {
+    color: #ffbd59;
 }
 
 header .item {
@@ -62,13 +64,13 @@ header div.context {
     position: absolute;
     display: none;
     flex-direction: column;
-    background: #000000;
+    background: #252525;
 }
 
 header a:hover div.context {
     display: block;
     position: fixed;
-    top:50px;
+    top: 50px;
 }
 
 header a {
@@ -79,12 +81,11 @@ header a {
     color: #000000;
     height: 30px;
     line-height: 30px;
-    
-    
+
+
 }
 
 header a:hover {
-    color: #efefef;
+    color: #dbd4d4;
     opacity: 100%;
 }
-
