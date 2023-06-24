@@ -10,18 +10,22 @@ body{
 
 header{
     border: 0;
-    color: #fff;
     max-height:40%;
     max-width: 100%;
     display: flex;
     align-items: center;
 }
-
-header:hover{ 
-    background-color: black;
-    color: #efefef;
+ header:hover{
+    background-color: #000000;
     transition: 0.5s;
+ }
+
+header:hover a{ 
+    color: #fff;
+
+    
 }
+
 
 a{
     text-decoration: none;
@@ -58,7 +62,7 @@ header div.context {
     position: absolute;
     display: none;
     flex-direction: column;
-    background: #252525;
+    background: #000000;
 }
 
 header a:hover div.context {
