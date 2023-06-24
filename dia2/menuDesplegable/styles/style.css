@@ -19,6 +19,7 @@ header{
 
 header:hover{ 
     background-color: black;
+    color: #efefef;
     transition: 0.5s;
 }
 
@@ -71,14 +72,15 @@ header a {
     text-decoration: none;
     padding: 10px 20px;
     font-size: larger;
-    color: #efefef;
+    color: #000000;
     height: 30px;
     line-height: 30px;
+    
     
 }
 
 header a:hover {
-    background-color: #757575;
+    color: #efefef;
     opacity: 100%;
 }
 
