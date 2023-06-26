@@ -1,7 +1,6 @@
 #testimonios {
     margin-top: 30%;
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
 }
 
 .testimonio{
@@ -9,7 +8,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
 }
 
 
