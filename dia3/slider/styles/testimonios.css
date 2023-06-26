@@ -1,0 +1,15 @@
+#testimonios {
+    margin-top: 30%;
+}
+
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+    border-radius: 100%;
+}
