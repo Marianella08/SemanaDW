@@ -1,5 +1,7 @@
 #testimonios {
     margin-top: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .testimonio{
@@ -7,6 +9,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 80%;
+}
+
+
+.nombre{
+    font-size: large;
 }
 
 img{
