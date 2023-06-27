@@ -1,5 +1,6 @@
 #testimonios {
     overflow: hidden;
+    height: 400px;
 }
 
 .testimonio{
@@ -9,7 +10,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
     height: 100%;
 }
 
