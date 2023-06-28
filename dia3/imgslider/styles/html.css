@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -23,6 +23,10 @@ header {
     justify-content: flex-end;
     margin-right: 57px;
     gap: 27px;
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
