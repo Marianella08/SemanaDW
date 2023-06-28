@@ -21,12 +21,20 @@ header {
     width: 30vw;
     display: flex;
     justify-content: flex-end;
-    margin-right: 57px;
+    margin-right: 50px;
     gap: 27px;
+}
+
+h1{
+    color: #e63d00;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover{
+    color: #e63d00;
 }
 
 main {

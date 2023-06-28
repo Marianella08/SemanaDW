@@ -1,0 +1,15 @@
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Perfil{
+    height: 310px;
+    border-radius: 100%;
+}
+
+#Redirector{
+    color:#ce3700;
+}
