@@ -1,0 +1,39 @@
+#imagenes {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    gap: 4em;
+    max-width: calc(100% - 80px);
+    transition: all 1s;
+    scroll-behavior: smooth;
+}
+
+/* .botones {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    max-width: calc(100vw);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+button {
+    border: none;
+    height: 20vw;
+    width: 20vw;
+    max-height: 100px;
+    max-width: 100px;
+    padding: 2.5%;
+    border-radius: 100%;
+}
+
+img {
+    position: relative;
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+}
