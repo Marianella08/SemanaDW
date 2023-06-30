@@ -32,7 +32,7 @@ button {
 }
 
 img {
-    position: relative;
+    position:relative;
     margin: auto;
     object-fit: contain;
     height: 100%;
