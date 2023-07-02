@@ -21,10 +21,6 @@ header {
     gap: 27px;
 }
 
-.navegador a{
-    text-decoration: none;
-}
-
 header img{
     height: 40px;
     padding-bottom: 7px;
