@@ -7,10 +7,24 @@ header {
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 .navegador {
     width: 30vw;
     display: flex;
     justify-content: flex-end;
     margin-right: 57px;
     gap: 27px;
+}
+
+.navegador a{
+    text-decoration: none;
+}
+
+header img{
+    height: 40px;
+    padding-bottom: 7px;
 }
