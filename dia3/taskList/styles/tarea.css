@@ -1,0 +1,30 @@
+.Tareas {
+    padding: 2em;
+}
+
+.task {
+    margin: 1em;
+    padding: 5px 1em;
+    border: solid #252525 1px;
+    border-radius: 10px;
+    height: 2em;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task button {
+    background-color: #00000000;
+    border: none;
+    padding: 5px;
+    height: 100%;
+}
+
+.task button img {
+    height: 100%;
+}
+
+.task.-selected > span {
+    text-decoration-line: line-through;
+}
