@@ -1,0 +1,16 @@
+#Intro{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+.botones{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

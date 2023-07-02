@@ -7,3 +7,14 @@ html{
     color: #4f4f4f;
     font-family: sans-serif, 'Lucida Sans Unicode';
 }
+
+.boton_completo{
+    padding: 10px 20px;
+    background-color: #8c52ff;
+    border:5px solid #8c52ff;
+    border-radius: 6px;
+}
+
+b{
+    color: #ff66c4;
+}
