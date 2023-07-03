@@ -13,11 +13,12 @@
     max-width: 300px;
 }
 
+
 input[type="button"] {
-    color: #ffffff;
+    padding: 10px 20px;
     background-color: #8c52ff;
-    height: 3em;
-    border-radius: 5px;
+    border:5px solid #8c52ff;
+    border-radius: 6px;
 }
 
 /* #output {
