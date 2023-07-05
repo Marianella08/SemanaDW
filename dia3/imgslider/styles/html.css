@@ -2,6 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: 7px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #e63d00;
+    border-radius: 4px;
+}
+
 * {
     color: #4f4f4f;
     font-family: sans-serif, 'Lucida Sans Unicode';
