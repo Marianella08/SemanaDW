@@ -1,4 +1,5 @@
 #imagenes {
+    padding-top: 300px;
     height: 400px;
     overflow: hidden;
     display: flex;
