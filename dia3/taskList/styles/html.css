@@ -22,6 +22,10 @@ main{
     border-radius: 10px;
 }
 
+input:focus {
+    outline: none;
+}
+
 #boton_ingreso {
     color: #ffffff;
     background-color: #007BFF;
