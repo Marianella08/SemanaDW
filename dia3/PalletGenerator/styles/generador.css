@@ -11,11 +11,15 @@
     justify-content:center;
     width: 100%;
     max-width: 300px;
+    gap: 20px
 }
 
 input{
+    padding: 8px;
     border: none;
-    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #cdcdcd;
+    
 }
 
 input[type="button"] {
