@@ -33,28 +33,23 @@ input[type="button"] {
 
 #output {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap: wrap; 
     justify-content: center;
     max-width: 600px;
-    width: 100%;
-    margin: 2em;
+    margin: 20px;
 }
 
 #output div {
-    background-color: #00000010;
+    /* background-color: #00000010; */
     border-radius: 10px;
     width: 30vw;
     height: 30vw;
     max-height: 175px;
     max-width: 175px;
     margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-#output div div {
+/* #output div div {
     color: white;
     mix-blend-mode: difference;
-}
+} */
