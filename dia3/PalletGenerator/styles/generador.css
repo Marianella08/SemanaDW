@@ -6,30 +6,30 @@
 }
 
 #Generador .input {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     max-width: 300px;
     gap: 20px
 }
 
-input{
+input {
     padding: 8px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #cdcdcd;
-    
+
 }
 
 input[type="button"] {
     padding: 10px 20px;
     background-color: #8c52ff;
-    border:5px solid #8c52ff;
+    border: 5px solid #8c52ff;
     border-radius: 6px;
 }
 
-/* #output {
+#output {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -55,4 +55,4 @@ input[type="button"] {
 #output div div {
     color: white;
     mix-blend-mode: difference;
-} */
+}
