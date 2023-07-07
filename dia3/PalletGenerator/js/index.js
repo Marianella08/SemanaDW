@@ -53,7 +53,7 @@ function hexToRgb(hex) {
 }
 
 function renderColors(colors) {
-    colossDiv.innerHTML = "";
+    colosDiv.innerHTML = "";
 
     colors.forEach(color => {
         const colorBox = document.createElement("div");
