@@ -33,3 +33,26 @@ input[type="button"] {
 form span {
     background-color: #8c52ff;
 }
+
+#output {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    max-width: 600px;
+    margin: 20px;
+}
+
+#output div {
+    background-color: #00000010;
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vw;
+    max-height: 175px;
+    max-width: 175px;
+    margin: 10px;
+}
+
+#output div div {
+    color: white;
+    mix-blend-mode: difference;
+}
