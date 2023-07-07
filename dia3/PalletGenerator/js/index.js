@@ -58,23 +58,22 @@ function renderColors(colors) {
     colors.forEach(color => {
         const colorBox = document.createElement("div");
         colorBox.className = "color-box";
-        colorBox.style.backgroundColor = `rgb(${ color.r }, ${ color.g }, ${ color.b })`;
-        
+        colorBox.style.backgroundColor = `rgb(${color.r}, ${color.g}, ${color.b})`;
+
         const colorCode = document.createElement("div");
         colorCode.className = "color-code";
-        colorCode.innerText = `RGB: ${ color.r }, ${ color.g }, ${
-            color.b 
-        }\nHEX: ${rgbToHex(color.r, color.g, color.b)}`;
+        colorCode.innerText = `RGB: ${color.r}, ${color.g}, ${color.b
+            }\nHEX: ${rgbToHex(color.r, color.g, color.b)}`;
 
         colorBox.appendChild(colorCode);
         colorDiv.appendChild(colorBox);
     });
 }
 
-function rgbToHex(r, g, b){
-    const hexR = r.toString(16).padStart(2,"0");
-    const hexG = g.toString(16).padStart(2,"0");
-    const hexB = b.toString(16).padStart(2,"0");
+function rgbToHex(r, g, b) {
+    const hexR = r.toString(16).padStart(2, "0");
+    const hexG = g.toString(16).padStart(2, "0");
+    const hexB = b.toString(16).padStart(2, "0");
 
-    return`#${hexR}${hexG}${hexB}`;
+    return `#${hexR}${hexG}${hexB}`;
 }
