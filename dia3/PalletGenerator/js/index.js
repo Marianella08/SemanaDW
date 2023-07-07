@@ -53,7 +53,7 @@ function hexToRgb(hex) {
 }
 
 function renderColors(colors) {
-    colorsDiv.innerHTML = "";
+    colorDiv.innerHTML = "";
 
     colors.forEach(color => {
         const colorBox = document.createElement("div");
@@ -67,5 +67,14 @@ function renderColors(colors) {
         }\nHEX: ${rgbToHex(color.r, color.g, color.b)}`;
 
         colorBox.appendChild(colorCode);
+        colorDiv.appendChild(colorBox);
     });
+}
+
+function rgbToHex(r, g, b){
+    const hexR = r.toString(16).padStart(2,"0");
+    const hexG = g.toString(16).padStart(2,"0");
+    const hexB = b.toString(16).padStart(2,"0");
+
+    return`#${hexR}${hexG}${hexB}`;
 }
